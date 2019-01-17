@@ -1,0 +1,29 @@
+{
+  "name": "friendfinder",
+  "version": "1.0.0",
+  "description": "friend matching app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "Finishoff",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "package": "^1.0.1"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Finishoff/FriendFinder.git"
+  },
+  "keywords": [
+    "FriendFinder"
+  ],
+  "bugs": {
+    "url": "https://github.com/Finishoff/FriendFinder/issues"
+  },
+  "homepage": "https://github.com/Finishoff/FriendFinder#readme"
+}
