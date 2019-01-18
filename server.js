@@ -1,16 +1,16 @@
-const express = require('express');
-const bodyParser = require('body-parser');
+var express = require("express");
+var path = require("path");
 
-const port = process.env.PORT || 3000;
+var app = express();
+var PORT = process.env.PORT || 3000;
 
-const app = express();
+app.use(express.json());
+app.use(express.urlencoded({ extended: true }));
 
-app.use(bodyParser.json());
-app.use(express.static('./app/public'));
+app.use('/assets', express.static(path.join(__dirname, './app/public/assets')));
+require("./app/routing/apiRoutes")(app);
+require("./app/routing/htmlRoutes")(app);
 
-require('./app/routing/htmlRoutes')(app)
-// require('./app/routing/apiRouting')(app)
-
-app.listen(port, function () {
-  `listening on ${port}, have fun!`
-})
+app.listen(PORT, function() {
+    console.log("App listening on PORT " + PORT);
+});
