@@ -6,7 +6,9 @@
 ![Screenshot of app](https://github.com/Finishoff/Bamazon/blob/master/x)
 
 How to get started?
+
     *Since the project is deployed on heroku you can visit it by 
+    
     [CLICKING HERE](https://tranquil-reaches-74465.herokuapp.com/)
 
 ## What is does this project do and how is it useful?
