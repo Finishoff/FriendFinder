@@ -12,5 +12,5 @@
 
 ## How to get started?
     *Since the project is deployed on heroku you can visit it by 
-    [CLICKING HERE](https://www.https://tranquil-reaches-74465.herokuapp.com)
+    [CLICKING HERE][https://www.https://tranquil-reaches-74465.herokuapp.com]
      
